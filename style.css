@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #EBD9B4;
+
+  }
+  
+  .stopwatch-container {
+    text-align: center;
+  }
+  
+  .stopwatch-display {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    margin: 10px auto;
+    stroke: black;
+  }
+  
+  .circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: conic-gradient(from 0deg, #00ff00 50%, transparent 50%);
+  }
+  
+  #display {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .controls button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 1em;
+    border-radius:20px ;
+    cursor: pointer;
+  }
+  
+  #lapList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #lapList li {
+    margin: 5px;
+  }
+  
